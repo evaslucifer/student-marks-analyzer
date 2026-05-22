@@ -56,7 +56,7 @@ if uploaded_file is not None:
     hours = st.slider(
         "Select Study Hours",
         min_value=0.0,
-        max_value=15.0,
+        max_value=10.0,
         value=5.0
     )
 
